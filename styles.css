@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    color: brown;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: burlywood;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header-panel1{
+    width: 100%;
+    height: 60px;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-panel2{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+button{
+    width: 100px;
+    height: 40px;
+    background-color: beige;
+    border: 0px solid black;
+    border-radius: 10%;
+}
+
+
+/* HERO SECTION*/
+
+.hero-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 460px;
+    background-color: rosybrown;
+
+}
+.win-msg{
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: beige;
+    
+}
+
+.game-box{
+    height: 340px;
+    width: 340px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rosybrown;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    border: 0px solid black;
+    border-radius:10%;
+    margin: 6px;
+    font-size: 32px;
+}
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hide{
+    display: none;
+}
